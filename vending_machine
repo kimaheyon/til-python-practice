@@ -22,7 +22,7 @@ elif coins < coffee:
 
 if drink == 'wine':
     coins = int (input ('coins : '))
-if coins >= coffee:
+if coins >= wine:
     print ("thank you! enjoy your wine :) , take your change!  $", coins - wine)
     exit ()
 elif coins < wine:
