@@ -1,0 +1,30 @@
+
+drink = 'coffee','wine','water'
+coins = 0
+coffee = 10
+wine = 20
+water = 30
+
+
+
+print ("please select a drinks and insert the coins >> coffee $10 , wine $ 20 , water $30 ")
+drink = str (input ('drink : '))
+
+if drink == 'coffee':
+    coins = int (input ('coins : '))
+if coins >= coffee:
+    print ("thank you! enjoy your coffee :) , take your change!  $", coins - coffee)
+    exit()
+elif coins < coffee:
+    print ('Oops its not enough coins! $', coins - coffee)
+    exit ()
+
+
+if drink == 'wine':
+    coins = int (input ('coins : '))
+if coins >= coffee:
+    print ("thank you! enjoy your wine :) , take your change!  $", coins - wine)
+    exit ()
+elif coins < wine:
+    print ('Oops its not enough coins! $', coins - wine)
+    exit ()
