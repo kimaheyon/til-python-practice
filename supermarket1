@@ -1,0 +1,36 @@
+
+
+products = 'apple','banana','kiwi','milk','rice'
+prices = {'apple':100,'banana':50,'kiwi':60,'milk':47,'rice':1005}
+# is this corrct way? i feel i could do way better
+discounts = {'student':0.2,'over 60s':0.25,'child':0.3,'nope':0}
+tax = [0.2]
+
+
+print("Hi there, welcome to kim's supermarket! how can we help?")
+name = input('this is what we have today >> apple, banana , kiwi , milk , rice : ')
+
+
+if name == 'apple':# need to study {} tuple, sure i did study but what?
+    print('thank you! it will be $',prices['apple'] , ', do you have any discounts?')
+    discounts = input(">>> student , over 60s , child , nope : ")
+    if discounts == 'student':
+        print('sure! so , it will be 20% off from your bills! your totall bill is $'
+              ,prices['apple']*0.2)# study how do I calculate the discounts?
+
+elif name == 'banana':
+    print('thank you! it will be$',prices['banana'] , ', do you have any discounts?')
+
+elif name == 'kiwi':
+    print('thank you! it will be$',prices['kiwi'] , ', do you have any discounts?')
+
+elif name == 'milk':
+    print('thank you! it will be$',prices['milk'] , ', do you have any discounts?')
+
+elif name == 'rice':
+    print('thank you! it will be$',prices['rice'] , ', do you have any discounts?')
+
+
+
+else:
+    print("Oops, Im sorry we don't have that , please try again! :D ")
