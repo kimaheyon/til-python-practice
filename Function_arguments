@@ -2,4 +2,9 @@ def say_hello(who):
     print ('hello' , who)
 say_hello ('kim')
 
+def plus (a,b):
+    print(a+b)
+plus(2,6)
+
+
 
