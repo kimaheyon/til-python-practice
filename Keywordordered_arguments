@@ -1,0 +1,5 @@
+
+def say_hello(name,age):
+    return f'hi im {name}, {age} years old'
+hello = say_hello('kim','29')
+print(hello)
