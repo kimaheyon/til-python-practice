@@ -1,0 +1,13 @@
+
+
+
+print('Hi this is my first Code_Challenge!')
+input("please Enter to check the Answer")
+
+def Code_Challenge(a,b):
+  return a+b, a-b ,a*b ,a/b ,a//b ,a%b, -a
+a=1
+b=2
+
+result=Code_Challenge(a,b)
+print(result,'\n' "thank you")
