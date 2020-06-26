@@ -1,0 +1,9 @@
+
+
+name = 'kim'
+
+if name is str:
+    Return ('hi)
+print(name)
+
+
