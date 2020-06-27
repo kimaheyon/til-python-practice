@@ -1,0 +1,3 @@
+from math import fsum as kim_sum
+print(kim_sum([1,2,3]))
+
