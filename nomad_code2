@@ -1,0 +1,5 @@
+import requests
+
+indeed_result = requests.get("https://www.indeed.co.uk/jobs?q=python+developer&l=london&limit=50&start=50")
+
+print(indeed_result)
